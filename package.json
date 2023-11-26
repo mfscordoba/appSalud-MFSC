@@ -1,0 +1,30 @@
+{
+  "name": "appsalud-mfsc",
+  "version": "1.0.0",
+  "description": "Ejemplo automatizacion pruebas software",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfscordoba/appSalud-Mfsanchez.git"
+  },
+  "keywords": [
+    "javascript",
+    "mocha",
+    "chai",
+    "purebas",
+    "appSalud"
+  ],
+  "author": "Manuel Felipe Sánchez Córdoba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mfscordoba/appSalud-Mfsanchez/issues"
+  },
+  "homepage": "https://github.com/mfscordoba/appSalud-Mfsanchez#readme",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0"
+  }
+}
