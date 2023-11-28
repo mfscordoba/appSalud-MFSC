@@ -4,7 +4,7 @@
   "description": "Ejemplo automatizacion pruebas software",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/unitarias test/integracion"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,9 @@
   },
   "homepage": "https://github.com/mfscordoba/appSalud-Mfsanchez#readme",
   "dependencies": {
-    "chai": "^4.3.10",
     "mocha": "^10.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.10"
   }
 }
